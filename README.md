@@ -29,7 +29,7 @@ $slideshow->add_meta_boxes([
 
 	                          ]);
 
-```php
+```
 
 you will need to create a file with post type name in "elements" folder.
 please add meta form elements with your own design.
