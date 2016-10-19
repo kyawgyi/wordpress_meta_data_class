@@ -13,7 +13,7 @@ It is very easy work
 * After that call add_meta_boxes method by passing default meta values as parameter.
 
 ##Example
-'''php
+```php
 
 include\("metaData\.php"\);
 
@@ -29,7 +29,7 @@ $slideshow->add_meta_boxes([
 
 	                          ]);
 
-'''php
+```php
 
 you will need to create a file with post type name in "elements" folder.
 please add meta form elements with your own design.
