@@ -8,9 +8,9 @@ This class is not plugin and just helper class and let you do more work as you w
 ##How you use this class
 It is very easy work
 
-*First you will need to include metaData to load this helper class.
-*Then instantiate a new object for a post type.
-*After that call add_meta_boxes method by passing default meta values as parameter.
+* First you will need to include metaData to load this helper class.
+* Then instantiate a new object for a post type.
+* After that call add_meta_boxes method by passing default meta values as parameter.
 
 ##Example
 
