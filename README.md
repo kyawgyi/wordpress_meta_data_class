@@ -13,19 +13,15 @@ It is very easy work
 
 ##Example
 
+
 include\("metaData\.php"\);
+\$slideshow = new metaData\("slideshow"\); //"slideshow" is post type name
+\$slideshow->add_meta_boxes([
+		                       "image_count" => 0,
+		                        "type"        => "",
+		                       "animation"   => ""
+	                          ]);
 
-$slideshow = new metaData\("slideshow"\); //"slideshow" is post type name
-
-$slideshow\-\>add_meta_boxes\(\[
-
-							"image_count" => 0,
-
-							"type"        => "",
-
-							"animation"   => ""
-
-						  ]);
 
 you will need to create a file with post type name in "elements" folder.
 please add meta form elements with your own design.
