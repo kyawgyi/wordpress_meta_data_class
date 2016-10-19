@@ -15,9 +15,9 @@ It is very easy work
 ##Example
 ```php
 
-include\("metaData\.php"\);
+include("metaData.php");
 
-$slideshow = new metaData\("slideshow"\); //"slideshow" is post type name
+$slideshow = new metaData("slideshow"); //"slideshow" is post type name
 
 $slideshow->add_meta_boxes([
 		                       
