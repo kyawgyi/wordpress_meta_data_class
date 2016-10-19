@@ -15,11 +15,16 @@ It is very easy work
 
 
 include\("metaData\.php"\);
+
 \$slideshow = new metaData\("slideshow"\); //"slideshow" is post type name
+
 \$slideshow->add_meta_boxes([
 		                       "image_count" => 0,
+
 		                        "type"        => "",
+
 		                       "animation"   => ""
+		                       
 	                          ]);
 
 
